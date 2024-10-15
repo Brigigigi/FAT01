@@ -1,0 +1,23 @@
+Git - Version Control (Most used and Most popular version control)
+    - Keeping track of changes
+    - Undoing mistakes
+    - Experimenting Safely
+    - Collaborating with other developers
+Repositories (Repo's)
+    - Container for a project you want to track with Git
+    - Local or Remote
+    - There can be multiple repos for different projects on your computer
+Frontend - The visible version of a webpage
+
+Turn a normal folder into a repository
+    - use " git init " command >> initialize a repository >> ability to track changes
+    - " U " means Untracked - It means that all of the files inside that repository, git is not yet tracking these files.
+    - Goal is to let the repository to track the files within it.
+    - " git status " command >> tells the status of all files and folders
+    - "Git 3 Stage Architecture"
+        - 1st - "Working Area"  - the repository itself and making functionalities
+        - 2nd - "Staging Area" - the preparation stage > prepare all the changes - The command >> " git add " >> " git add . " >> allows to add 
+        - 3rd - "Commit Stage" - The command >> " git commit " >>> Saving the state of the file. Hence making versions of every changes you make.
+            - These are snapshopts of the different stages of your project.
+            - You can go back to these snapshots anytime you need to.
+            - Reduce the risk of losing progress on your project.
