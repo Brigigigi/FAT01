@@ -22,3 +22,16 @@ git config user.email
 
 - To initialize a Repository
     >> git init
+
+
+Branching 
+
+- List all the branches
+    >> git branch -a
+
+- Create a branch
+    >> git brance [branch-name]
+
+- Switch Branch
+    >> git checkout [branch-name]
+    >> git switch [branch-name]
