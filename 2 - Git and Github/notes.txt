@@ -16,8 +16,15 @@ Turn a normal folder into a repository
     - " git status " command >> tells the status of all files and folders
     - "Git 3 Stage Architecture"
         - 1st - "Working Area"  - the repository itself and making functionalities
-        - 2nd - "Staging Area" - the preparation stage > prepare all the changes - The command >> " git add " >> " git add . " >> allows to add 
-        - 3rd - "Commit Stage" - The command >> " git commit " >>> Saving the state of the file. Hence making versions of every changes you make.
+        - 2nd - "Staging Area" - the preparation stage > prepare all the changes - The command >> " git add " >> " git add . " >> allows to add files to staging area
+            " U " > Untracked, " A " > Added >> From working area to staging area
+        - 3rd - "Commit Stage" - The command >> " git commit " >>> Saving the state of the file. Hence making versions of every changes you make. >> " git commit -m "Description of the changes made" " >> m > message
             - These are snapshopts of the different stages of your project.
             - You can go back to these snapshots anytime you need to.
             - Reduce the risk of losing progress on your project.
+
+Additional notes:
+    - config git >> " git config --global user.name "username" "
+        >> " git config --global user.email "email" "
+        >> git config user.name/user.email to check
+           
