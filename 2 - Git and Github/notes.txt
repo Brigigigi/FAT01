@@ -6,6 +6,22 @@ Git - Version Control (Most used and Most popular version control)
 Repositories (Repo's)
     - Container for a project you want to track with Git
     - Local or Remote
+        > Local - inside personal machine
+        > Remote - inside github
+            > Create a repository on github
+            > Public / Private 
+            > "create a new repo on the cl" or "push an existing repo from the cl"
+                - if you already have a local repo, you can just push the local repo to connect to github to also become a remote repo
+                - copy firs line to local machine (vscode)
+                - check if connection is secure >> " git remote -v "
+                - " git branch -M main " >> master's branch name will be " main " in the remote repo or in github
+                - copy the second line (git branch -M main) to local machines terminal to rename the master branch
+                - " git push -u origin main " >> "push" means upload from local repo to remote repo >> " -u origin " indicates the link where to upload/push >> " main " means to upload/push from local to remote repo or github server
+                -  cop " git push -u origin main " to local terminal >> used only once just to upload from local to remote repo
+                - for the second time after changes just the " git push " command
+                - it might ask you sign in or not
+
+
     - There can be multiple repos for different projects on your computer
 Frontend - The visible version of a webpage
 
@@ -33,3 +49,36 @@ Additional notes:
 " Commit Hash" unique id for the changes
 " Author " and " Date "
 " git log --oneline " >> Display git log in a single line >> show firs 7 digits of commit Hash
+
+Main Codebase - available to the public
+(master) - master branch
+(working tree is clean)
+
+Branches
+    - Master Branch
+        - Starting branch
+        - Stable version of your code
+        - Branch that is published 
+
+Additional Branches - Will not affect the master branch / main codebase - can be merged to the master/main branch
+    - Copy state of code in master branch into a new Branch
+    - Isolated environment where we can try out features and changes
+    - If deleted or modified, these will not affect the master branch
+
+" git branch -a " command - list the branches
+    - color " green " indicates you are inside that particular branch
+
+" git branch <branch name> " command - creates a new branch
+" git checkout <branch name you want to jump into> " command - jumps to the branch you want to get into
+
+Green colored vertical line beside indicates changes are made in a different branch
+
+Anything changes made in this seperate branch will not affect/visible in the main branch
+
+Merge branches into the master branch
+    > Should be in the master branch first
+    > " git merge [branch-name] " command
+
+After merging, feature/branch made can be deleted
+    > should be in the master branch
+    > " git branch -d [branch-name] " command - deletes a particular branch
