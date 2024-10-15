@@ -11,6 +11,7 @@ git config user.email
 
 - Add modified files to the staging area
     >> git add .
+    >> git add <file name> -- for a single file
 
 - Create a commit
     >> git commit -m "Description"
