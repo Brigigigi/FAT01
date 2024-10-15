@@ -27,4 +27,6 @@ Additional notes:
     - config git >> " git config --global user.name "username" "
         >> " git config --global user.email "email" "
         >> git config user.name/user.email to check
-           
+
+
+" git log " command >> to check for the history of changes
