@@ -30,3 +30,6 @@ Additional notes:
 
 
 " git log " command >> to check for the history of changes
+" Commit Hash" unique id for the changes
+" Author " and " Date "
+" git log --oneline " >> Display git log in a single line >> show firs 7 digits of commit Hash
