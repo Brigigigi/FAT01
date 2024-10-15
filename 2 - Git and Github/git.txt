@@ -35,3 +35,10 @@ Branching
 - Switch Branch
     >> git checkout [branch-name]
     >> git switch [branch-name]
+
+
+Merging
+    >> git merge [branch-name]
+
+Delete a Branch
+    >> git branch -d [branch-name]
