@@ -1,0 +1,20 @@
+HTML notes
+
+" ! " >> Emmet Abreviation / A default boiler template
+
+Word Wrap ( Alt + z ) >>  able to see the entire content without scrolling
+
+HTML utilizes the use of " tags " 
+
+<html> </html> >> root element >> encompasses eveything 
+
+metadata >> additional information about the page but not visible on the page
+
+<body> </body> >> Information that can be seen on the page
+
+Comment " ctrl + / "  " <!--  --> " >> give information/notes that will not be displayed on the page
+    -- Highlight the things you want to be commented the ctrl+/
+
+SEO - Search Engine O
+
+
