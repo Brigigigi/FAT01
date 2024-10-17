@@ -1,0 +1,104 @@
+#text-styling{
+    /* Font fallback - if all is not available, the next sans-serif font will be applied */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Font Weight */
+    /* Keyword Values */
+    font-weight: bold;
+    font-weight: normal;
+    font-weight: lighter; 
+    font-weight: bolder;
+
+    /* Numeric Values */
+    /* Range nay vary depending on the font-family used. [100-950] */
+    font-weight: 100; /* Thin */
+    font-weight: 950; /* Thick */
+
+    /* Font Style */
+    font-style: italic;
+    font-style: oblique ;
+    font-style: normal; /* Default value for font-style if not set */
+
+    /* Text Align */
+    text-align: center;
+    text-align: justify;
+    text-align: right;  
+    text-align: left; /* Default value for text-align if not set */
+
+    /* Line Height */
+    line-height: normal; /* Default line-height */
+    line-height: 1.5; /* Numerical multiplier on the font size of the text */
+    line-height: 150%; /* Percentage */
+    line-height: 36px; /* Abslute/Fix Value */
+
+    /* Letter Spacing */
+    letter-spacing: normal; /* Default letter-spacing */
+    letter-spacing: 4px; /* Positive value */ /* adds 4px between each letters */
+    letter-spacing: -4px; /* Negative value */ /* removes 4px spaces between each letters */
+    letter-spacing: 1px;
+}
+
+#text-decoration{
+    text-decoration: none; /* Default value for text-decration */
+    text-decoration: line-through; /* strike-through */
+    text-decoration: overline; /* line above the text */
+    text-decoration: underline; /* line beloew the text */
+
+    /* Text Decoration Style */
+    text-decoration-style: solid; /* Default for text-decoratin-style */
+    text-decoration-style: double; /* doubles the line */
+    text-decoration-style: dotted; /* makes the line dotted */
+    text-decoration-style: wavy; /* makes the line wavy */
+    text-decoration-style: dashed; /* makes the line dashed */
+
+    /* Text Decoration Color */
+    text-decoration-color: red;
+
+    /* Text Decoration Thickness */
+    text-decoration-thickness: auto; /* Default value */
+    text-decoration-thickness: 5px;
+    text-decoration-thickness: 5%;
+
+    /* Text Decoratin in one line */
+    text-decoration: underline dashed blue 2px;
+
+}
+
+#colors{
+    /* Color Names */
+    color: white;
+    background-color: yellow;
+
+    /* RGB */
+    /* RGB - Red Green Blue - [0-255] */
+    /* RGBA - Alpha - [0.0]>Transparent -[1.0]>Fully Opaque */
+    color: rgb(255, 0, 0);
+    background-color: rgba(199, 9, 237, .25);
+
+    /* Hexadecimal color */
+    /* pre-fixed with '#' >> #RRGGBB - [0-9, A-F] */
+    /* For RGBA -- #RRGGBBAA */
+    color: #669bbc;
+    background-color: #fdf0d5;
+
+}
+
+#absolute-unit-px{
+    /* absolute value - px */
+    font-size: 24px;
+
+}
+
+#relative-unit-em{
+    /* Relative to the parent element */
+    /* em >> multipier to the current font size of the text of the parent element */
+    font-size: 2em;
+
+}
+
+#relative-unit-rem{
+    /* rem - root em >> multiplier to the current size of the text of the root element*/
+    /* Relative to the root element */
+    font-size: 2rem;
+
+}

@@ -1,0 +1,60 @@
+/* Element Selector */
+/* For Element Selector, All the style made using selector will be applied to all the same elements in the code */
+span{
+    background-color: green;
+    color: blue;
+
+}
+
+/* Class Selector */
+/* Class Selector is pre-fixed with '.' */
+/* For Element Selector, All the style made using selector will be applied to all the same class in the code */
+.intro-paragraphs{
+    text-align: center;
+    letter-spacing: 4px;
+
+}
+
+/* ID Selector */
+/* ID Selector is pre-fixed with '#' */
+#main-heading{
+    line-height: 8;
+    text-decoration: underline;
+
+}
+
+/* Universial Selector */
+/* Targets all the elements */
+/* ' * ' is used to target all the elements */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Grouping Selector */
+/* Targets all the different kind of elements that are in group */
+h1, h2, .about-content{
+    background-color: aqua;
+    color: rebeccapurple;
+
+}
+
+/* Descendant Selector */
+/* Targets a specific children element inside a parent element */
+/* parent should be targeted first to have access on the children element */
+.article-container p{
+    font-style: italic;
+    color: tomato;
+
+}
+
+/* Pseudo Classes */
+/* 'element':special state you want to style */
+/* Hover over the text */
+a:hover{
+    color: yellow;
+}
+/* Click and hold the text */
+a:active{
+    color: tomato;
+}

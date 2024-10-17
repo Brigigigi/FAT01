@@ -1,0 +1,22 @@
+-- CSS --
+
+Three ways to add CSS in HTML
+
+>> Inline Styling 
+    --
+
+>> Internal Styling
+    --Uses selector systax
+    uses " # " when using id as a selector
+
+>> External Styling
+    --Uses a externa file called -- .css file
+    uses " link " tag to link the .css file to the html file
+
+
+STYLING ESSENTIALS
+>> CSS Typography
+    -- Font fallback >> Emergency font already set.
+    -- 
+
+coolors.com - for rgb colors
