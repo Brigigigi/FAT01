@@ -1,0 +1,50 @@
+/* FlexBox */
+/* one-dimensional layout system */
+/* Stretches or Compresses */
+/* x-axis is the main axis, y-axis is the cross axis */
+
+.flexContainer{
+    display: flex;
+    /* flex direction property is set to row (default) */
+    flex-direction: row;
+
+    justify-content: flex-end;
+    justify-content: flex-start; /* Default for the justify-content */
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+
+    align-items: stretch; /* Default value when set container to flex */
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: flex-start;
+    align-items: stretch;
+
+    flex-wrap: nowrap; /* Default value for flex-wrap */
+    flex-wrap: wrap-reverse;
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+
+    column-gap: 30px;
+    row-gap: 30px  ;
+    gap: 30px;
+    /* can only be used when column and row have same value */
+
+}
+
+/* Willingness of the Elements to grow */
+.flexItem1 {
+    flex-grow: 0; /* Default value */
+    flex-grow: 1;
+
+}
+
+/* Willingness of the Elements to shrink */
+.flexItem1 {
+    flex-shrink: 1; /* Default value for the flex-shrink */
+    flex-shrink: 0;
+
+}

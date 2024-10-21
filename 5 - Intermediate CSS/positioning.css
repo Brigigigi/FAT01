@@ -1,0 +1,53 @@
+/* Static Positioning */
+/* Default positioning */
+/* All the Elements follow the normal document flow */
+
+/* Relative Positioning */
+/* manipulates elements position relative to its original position */
+#relative {
+    background-color: #fc0;
+    position: relative;
+    /* once relative position is used, will now have access to >> */
+    /* top, right, bottom, left */
+    
+}
+
+/* Absolute Positioning */
+/* Sets Elements position relative to the parent container */
+/* Removes the element from the normal document flow */
+#absolute {
+    background-color: #f00;
+    color: #fff;
+    position: absolute;
+    /* once absolute position is used, will now have access to >> */
+    /* top, right, bottom, left */
+    top: 0px;
+    right: 20px;
+
+}
+
+/* Fixed Positioning */
+/* Elements position is relative to the Viewport */
+/* Removes the element from the normal document flow */
+/* Element stays on the same place when you scroll */
+#fixed {
+    background-color: aqua;
+    position: fixed;
+    /* once fixed position is used, will now have access to >> */
+    /* top, right, bottom, left */
+    bottom: 0px;
+    right: 0px;
+
+}
+
+/* Sticky Positioning */
+/* starts a relative positioning */
+/* once it hits the specified point. it will stick to it */
+#sticky {
+    background-color: bisque;
+    position: sticky;
+    /* once sticky position is used, will now have access to >> */
+    /* top, right, bottom, left */
+    top: 10px;
+
+}

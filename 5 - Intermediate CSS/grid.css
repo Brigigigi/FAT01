@@ -1,0 +1,62 @@
+/* Grid */
+/* 2-Dimensional consists of rows and columns */
+
+.gridContainer {
+    display: grid;
+    
+    /* Using px */
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
+
+    /* Using auto */
+    /* gives height and width based on the content */
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+
+    /* Using percentage */
+    grid-template-columns: 25% 25% 25% 25%;
+
+    /* Using FR - Fractional Units */
+    grid-template-columns: 1fr 1fr 1fr;
+
+    /* Using repeat() function */
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+/* DRY - Do not Repeat Yourself */
+
+/* Media Queries */
+/*  Mobile Devices: Less than 481px
+    iPads, Tablets: 481px - 768px
+    Small Screens, Laptops: 769px - 1024px
+    Desktops, Large Screens: 1025px - 1200px
+    Extra Large Screens, TV: 1201px and greater
+ */
+
+ /* Desktop to TV */
+@media screen and (min-width: 1025px) {
+    .gridContainer{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+/* iPad to Laptops */
+@media screen and (mid-width: 481px) and (max-width: 1024px) {
+    .gridContainer{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 481px) {
+    .gridContainer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .gridItem {
+        background-color: tomato;
+    }
+}
